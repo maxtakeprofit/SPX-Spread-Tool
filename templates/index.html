@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPX Call Credit Spread Strategy</title>
+</head>
+<body>
+    <h1>SPX Daily Call Credit Spread Recommendation</h1>
+    <ul>
+        <li><strong>Current SPX Price:</strong> {{ result['SPX Price'] }}</li>
+        <li><strong>Average Daily Range (ATR):</strong> {{ result['ATR'] }}</li>
+        <li><strong>Sell Call Strike:</strong> {{ result['Short Strike'] }}</li>
+        <li><strong>Buy Call Strike:</strong> {{ result['Long Strike'] }}</li>
+        <li><strong>Expected Premium Collected:</strong> ${{ result['Premium Collected ($)'] }}</li>
+    </ul>
+</body>
+</html>
